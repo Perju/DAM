@@ -44,4 +44,8 @@ public class SonidoJavaIO {
 				e.printStackTrace();
 			}
 	}
+	// metodo para los que vienen de la version anterior de la clase Sonido
+	public void reproducirSonido(int duracion) throws InterruptedException{
+		this.reproducirSonido();		
+	}
 }
