@@ -1,8 +1,9 @@
 package paquete;
+// para usar la entrada y salida de ficheros estandar y no hacer uso del MainClass.class.getResourceAsStream();
+// y su libreria para la excepciones
 import java.io.File;
 import java.io.IOException;
-//imports necesarios
-import java.io.InputStream;
+// librerias para acceder al sistema de sonido y para crear clips de sonido con los que trabajar
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
