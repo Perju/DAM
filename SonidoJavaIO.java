@@ -32,6 +32,13 @@ public class SonidoJavaIO {
 				// dividimos para 1000 y pasamos de microsegundos 1E-6 a milisegundos 1E-3
 				// para esperar el tiempo que dura el sonido
 				Thread.sleep((int)sonido.getMicrosecondLength()/1000); 
+			} catch (LineUnavailableException  e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			} catch (UnsupportedAudioFileException e) {
+				e.printStackTrace();
+			}finally{
 				// detenemos la reproduccion
 				sonido.stop();
 				// vaciamos el buffer
@@ -39,9 +46,6 @@ public class SonidoJavaIO {
 				// cerramos el sonido, si no se vacia el buffer antes, tarda un poco en cerrar
 				// y la aplicacion no corre fluida
 				sonido.close();
-			} catch (LineUnavailableException | IOException | UnsupportedAudioFileException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
 			}
 	}
 	// metodo para los que vienen de la version anterior de la clase Sonido
