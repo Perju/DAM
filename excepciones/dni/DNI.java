@@ -31,6 +31,31 @@ public class DNI{
 			throw new DNIException(error);
 		}
 	}
+	
+	//metodo que nos devuelve la letra que pertenece a un DNI o NIF tal como se crean en españa
+	public static char obtenerLetra(String dni) throws DNIException {
+        	//aprovechar la captura de excepciones para lanzar la mia propia
+        	String error = "";
+        	int numero = 0, pos = 0;
+        	char letra;
+        	try {
+            	//si la longitud del DNI no es correcta osea 9 generamos un error
+            	if (dni.length() != 8) {
+	                error = "DNI con logitud diferente a 8";
+	                Integer.parseInt("a");
+	            }
+	            // intentamos convertir los 8 primero caracteres a numeros y si no son numeros se genera el error solo
+	            error = "DNI con error en el numero";
+	            numero = Integer.parseInt(dni.substring(0, 8));
+	            char letras[] = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+	            pos = numero % 23;
+	            letra = letras[pos];
+	        } catch (Exception e) {
+	            // le pasamos una cadena al constructor de la Excepcion
+	            throw new DNIException(error);
+	        }
+	        return letra;
+    	}
 }
 
 //no es normal declarar aqui otra clase, al ser 7 lineas comentarios incluidos no pasa nada
