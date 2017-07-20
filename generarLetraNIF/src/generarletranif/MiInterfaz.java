@@ -10,14 +10,11 @@ import java.awt.Container;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.SwingConstants;
 
 /**
  *
@@ -46,13 +43,12 @@ public class MiInterfaz extends JFrame implements ActionListener{
         @Override
     public void actionPerformed(ActionEvent e) {
         String accion = e.getActionCommand();
-        System.out.println(accion);
         if(accion == "Obtener Letra"){
             String texto = "";
             try {
-                texto = textDNI.getText()+" "+DNI.obtenerLetra(textDNI.getText());
+                texto = textDNI.getText()+"-"+DNI.obtenerLetra(textDNI.getText());
             } catch (Exception ex) {
-                Logger.getLogger(MiInterfaz.class.getName()).log(Level.SEVERE, null, ex);
+                texto=ex.getMessage();
             }
             labelNIF.setText(texto);
         }
