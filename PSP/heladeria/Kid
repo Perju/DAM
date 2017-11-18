@@ -1,0 +1,41 @@
+package heladeria;
+
+import java.util.Random;
+
+public class Kid extends Thread {
+
+	private String nombre;
+	private Heladeria heladeria;
+	private int cantidad;
+	Random rnd;
+
+	public Kid(String nombre,Heladeria heladeria){
+		this.nombre=nombre;
+		this.heladeria=heladeria;
+		rnd = new Random();
+		this.cantidad=0;
+	}
+
+	@Override
+	public void run() {
+
+		while(heladeria.isActivo()){
+			try {
+				heladeria.heladeroCogeHelado();
+				cantidad++;
+				System.out.println("El chico/a "+this.nombre+" coge un helado");
+				heladeria.heladeroEntregaHelado();
+				// rnd(8)+3 == (0..7)+3 == 3..10
+				Thread.sleep(rnd.nextInt(8)+3);
+			} catch (InterruptedException ex) {
+				System.err.println(ex.getMessage());
+			}
+			
+		}
+	}
+	
+	public String toString(){
+		return "El chico/a "+this.nombre+" se ha comido "+cantidad+" helados";
+	}
+
+}
