@@ -23,7 +23,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 
-public class Persecuciones {
+public class principal {
 
 	private static void crearElemento(String nombre,String valor,Element raiz, Document docu) {
 		Element elem = docu.createElement(nombre);
@@ -55,56 +55,34 @@ public class Persecuciones {
 			ResultSet rs = sql.executeQuery(consulta);
 			// para las subconsultas
 			Statement sql2 = conexion.createStatement();
-			ResultSet rs2=sql2.executeQuery("");// para poder cerrarlo sin problemas
+			ResultSet rs2=sql2.executeQuery(consulta);// para poder cerrarlo sin problemas
 			//perseguidor, perseguido, arma, disfraz, Invento, causa, frasePerseguidor, frasePerseguido
 			while(rs.next()) {
 				Element elemento = documento.createElement("Persecucion");
 				documento.getDocumentElement().appendChild(elemento);
 				String valor;
-
-				rs2=sql2.executeQuery("select nombre from personaje where id="+rs.getInt("perseguidor"));
-				if(rs2.next()) {
-					valor=rs2.getString("nombre");
-					crearElemento("perseguidor",valor,elemento,documento);
+				// cadenas para crear las stentencias sql
+				// para la consulta principal
+				String camposRs1[]= {"perseguidor","perseguido","arma","disfraz","invento",	"causa","fraseperseguidor","fraseperseguido"};
+				//para las subconsultas
+				String camposRs2[]= {"nombre","nombre","arma","disfraz","invento"};
+				String tablas[]= {"personaje","personaje","arma","disfraz","invento"};
+				// las 5 primeras subconsultas en un bucle
+				for(int i=0;i<camposRs2.length;i++) {
+					rs2=sql2.executeQuery("select "+camposRs2[i]+" from "+ tablas[i]+" "
+							+ "where id="+rs.getInt(camposRs1[i]));
+					if(rs2.next()) {
+						valor=rs2.getString(camposRs2[i]);
+						crearElemento(camposRs1[i],valor,elemento,documento);
+					}
 				}
-
-				rs2=sql2.executeQuery("select nombre from personaje where id="+rs.getInt("perseguido"));
-				if(rs2.next()) {
-					valor=rs2.getString("nombre");
-					crearElemento("perseguido",valor,elemento,documento);
+				// y las tres ultimas en otro
+				for(int i = camposRs2.length ; i<camposRs1.length;i++ ) {
+					valor=rs.getString(camposRs1[i]);
+					if(valor!=null) {
+						crearElemento(camposRs1[i],valor,elemento,documento);
+					}	
 				}
-
-				rs2=sql2.executeQuery("select arma from arma where id="+rs.getInt("arma"));
-				if(rs2.next()) {
-					valor=rs2.getString("arma");
-					crearElemento("arma",valor,elemento,documento);
-				}
-
-				rs2=sql2.executeQuery("select disfraz from disfraz where id="+rs.getInt("disfraz"));
-				if(rs2.next()) {
-					valor=rs2.getString("disfraz");
-					crearElemento("disfraz",valor,elemento,documento);}
-
-
-				rs2=sql2.executeQuery("select invento from invento where id="+rs.getInt("invento"));
-				if(rs2.next()) {
-					valor=rs2.getString("invento");
-					crearElemento("invento",valor,elemento,documento);
-				}
-				
-				valor=rs.getString("causa");
-				if(valor!=null) {System.out.println("Causa: "+valor);
-				crearElemento("causa",valor,elemento,documento);}
-				
-				valor=rs.getString("frasePerseguidor");
-				if(valor!=null) {System.out.println("frasePerseguidor: "+valor);
-				crearElemento("frasePerseguidor",valor,elemento,documento);}
-				
-				valor=rs.getString("frasePerseguido");
-				if(valor!=null) {System.out.println("frasePerseguido: "+valor);
-				crearElemento("frasePerseguido",valor,elemento,documento);}
-				
-				System.out.println("primerElementoCreado");
 			}
 			// creamos el XML
 			Source origen = new DOMSource(documento);
@@ -114,12 +92,14 @@ public class Persecuciones {
 			// cerramos las conexiones SQL
 			rs.close();
 			sql.close();
-			rs2.close();
+			rs2.close(); // puede que nos saltemos el bucle y hay que ejecutar una consulta innecesaria
 			sql2.close();
 			conexion.close();
-
-		} catch (ParserConfigurationException e) {e.printStackTrace();} catch (SQLException e) {
+			System.out.println("Tarea completada");
+		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
+		} catch (SQLException e) {
+				e.printStackTrace();
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (TransformerConfigurationException e) {
