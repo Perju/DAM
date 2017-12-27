@@ -1,3 +1,5 @@
+package banco;
+
 public class Productor implements Runnable {
 	private Cuenta cuenta;
 

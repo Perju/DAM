@@ -1,4 +1,4 @@
-package juegos01;
+package juegosTerminal;
  
 import java.util.Scanner;
 import java.util.Random;
@@ -6,7 +6,6 @@ import java.util.Random;
 public class TragaPerras {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		Random rnd = new Random();
 		String simbolos="$#%<>@", resultado="", combinacion="$$$ $@@ $## @@@ @## @$$ ### %%% <<< >>> $@%";
@@ -96,5 +95,7 @@ public class TragaPerras {
 					System.out.println("No te queda dinero");
 				}
 		}while(credito>0);
+		// cerramos el teclado antes de salir
+		teclado.close();
 	}
 }

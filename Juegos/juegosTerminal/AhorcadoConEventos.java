@@ -6,7 +6,7 @@
  * de Nacho Cabanes
  * http://www.nachocabanes.com/videojuegos/ipj/ipj05.php
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-package juegos01;
+package juegosTerminal;
 //importamos las librerias necesarias
 import java.applet.Applet;
 import java.awt.*;
@@ -19,6 +19,8 @@ import java.util.Random;
  * y poder crear un bucle que se ejecuta y no hace pausas para leer el teclado
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 public class AhorcadoConEventos extends Applet implements KeyListener{
+	// serial version para la clase serializable
+	private static final long serialVersionUID = 1L;
 	// pasamos de la palabra reservada final parece ser para CONSTANTES
 	int NUMPALABRAS = 10;
 	int MAXINTENTOS = 5;

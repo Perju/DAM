@@ -1,4 +1,4 @@
-package juegos01;
+package juegosTerminal;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -79,5 +79,7 @@ public class Ahorcado {
 			}
 			
 		}while(!salir);
+		// cerramos el teclado antes de salir
+		teclado.close();
 	}
 }

@@ -1,7 +1,5 @@
 package heladeria;
 
-import java.util.concurrent.Semaphore;
-
 public class MainHeladeria {
 
 	public static void main(String[] args) {

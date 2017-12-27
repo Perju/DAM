@@ -1,13 +1,10 @@
 package RandomAccesFile;
 
 import java.io.*;
-import java.util.Random;
 
 public class EscribirFloatAlFinal {
 
 	public static void main(String[] args) {
-		// lo de siempre
-		Random rnd = new Random();
 		//getProperty("user.dir") devuelve el directorio de trajabo del usuario
 		String home=System.getProperty("user.home");
 		// creamos un objeto de tipo file pasandole solo un parametro

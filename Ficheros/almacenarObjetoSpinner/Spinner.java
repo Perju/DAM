@@ -2,7 +2,7 @@ package almacenarObjetoSpinner;
 
 import java.io.*;
 
-public class Spinner implements Comparable,Serializable{
+public class Spinner implements Comparable<Spinner>,Serializable{
 	/**
 	 * para serializar el objeto y guardarlo en un archivo
 	 */
@@ -49,7 +49,7 @@ public class Spinner implements Comparable,Serializable{
 	}
 
 	@Override
-	public int compareTo(Object obj) {
+	public int compareTo(Spinner obj) {
 		if (this == obj){
 			return 0;
 		}
@@ -84,5 +84,6 @@ public class Spinner implements Comparable,Serializable{
 	public void setDurabilidad(int durabilidad) {
 		this.durabilidad = durabilidad;
 	}
+
 }
 

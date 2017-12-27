@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class Leer {
 	//metodo para pedir enteros

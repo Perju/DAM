@@ -1,3 +1,5 @@
+package banco;
+
 public class Usuario implements Runnable {
 	private Cuenta cuenta;
 	private int tiempo;

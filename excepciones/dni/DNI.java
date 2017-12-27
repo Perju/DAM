@@ -1,4 +1,4 @@
-package excepciones;
+package dni;
 
 public class DNI{
 	public static void comporbarDNI(String dni) throws DNIException{
@@ -60,6 +60,8 @@ public class DNI{
 
 //no es normal declarar aqui otra clase, al ser 7 lineas comentarios incluidos no pasa nada
 final class DNIException extends Exception {
+	private static final long serialVersionUID = 1L;
+
 	public DNIException(String cadena){
 		// pasamos una cadena a la clase Extends y al pintar el stacktrace parece un error profesional XD
 		super(cadena);

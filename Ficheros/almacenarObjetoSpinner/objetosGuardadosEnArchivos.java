@@ -7,7 +7,6 @@ public class objetosGuardadosEnArchivos {
 	
 	public static Spinner crearSpiner(){
 		Random rnd=new Random();
-		Spinner spin;
 		String[]  nombres={"AP","MO","CO","TA","CA","PU"};
 		String nombrespiner;// se concatenaran dos silabas del array String[] nombres
 		int durabilidad;
