@@ -2,10 +2,11 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="clasesEstaticas"/>
+	<classpathentry kind="src" path="AD"/>
 	<classpathentry kind="src" path="Juegos"/>
 	<classpathentry kind="src" path="excepciones"/>
 	<classpathentry kind="src" path="Otros"/>
-	<classpathentry kind="src" path="Ficheros"/>
 	<classpathentry excluding="banco/" kind="src" path="PSP"/>
+	<classpathentry kind="src" path="Introduccion"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

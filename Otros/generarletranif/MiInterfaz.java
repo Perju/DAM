@@ -5,7 +5,6 @@
  */
 package generarletranif;
 
-import generarletranif.DNI.DNI;
 import java.awt.Container;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
