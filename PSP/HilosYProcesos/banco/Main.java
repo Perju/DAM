@@ -1,4 +1,4 @@
-package banco;
+package HilosYProcesos.banco;
 public class Main {
 	public static void main(String[] args) {
 			// creamos los objetos necesarios

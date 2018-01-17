@@ -1,4 +1,4 @@
-package banco;
+package HilosYProcesos.banco;
 
 public class Usuario implements Runnable {
 	private Cuenta cuenta;

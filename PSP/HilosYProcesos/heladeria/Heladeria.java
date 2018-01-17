@@ -1,4 +1,4 @@
-package heladeria;
+package HilosYProcesos.heladeria;
 
 import java.util.concurrent.Semaphore;
 
@@ -17,22 +17,20 @@ public class Heladeria {
 
 	// el heladero obtiene un helado de la camara
 	public void heladeroCogeHelado() throws InterruptedException {
-		heladeros.acquire();
+		heladeros.acquire();// añadimos un permiso al semaforo
 		helados--;
 	}
 
 	// el heladero entrega un helado a quien se lo pida
 	public void heladeroEntregaHelado() throws InterruptedException {
 		if(helados>0) {
-			heladeros.release();	
+			heladeros.release();// liberamos un permiso del semaforo	
 		} else {
 			activo=false;
 		}
-		
 	}
 	
 	public boolean isActivo() {
 		return activo;
 	}
-
 }

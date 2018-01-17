@@ -1,4 +1,4 @@
-package heladeria;
+package HilosYProcesos.heladeria;
 
 import java.util.Random;
 
@@ -35,9 +35,7 @@ public class Kid extends Thread {
 				heladeria.heladeroEntregaHelado();
 				// si calculo aqui la glotoneria se equilibran en consumo
 				Thread.sleep(glotoneria);
-			} catch (InterruptedException ex) {
-				System.err.println(ex.getMessage());
-			}
+			} catch (InterruptedException ex) {System.err.println(ex.getMessage());}
 		}
 	}
 	

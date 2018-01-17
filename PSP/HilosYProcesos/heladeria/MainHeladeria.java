@@ -1,4 +1,4 @@
-package heladeria;
+package HilosYProcesos.heladeria;
 
 public class MainHeladeria {
 

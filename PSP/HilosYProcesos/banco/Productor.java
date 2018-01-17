@@ -1,4 +1,4 @@
-package banco;
+package HilosYProcesos.banco;
 
 public class Productor implements Runnable {
 	private Cuenta cuenta;
