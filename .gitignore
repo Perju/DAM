@@ -1,2 +1,8 @@
-# esto es un comentario
-bin
+# mas informacion en https://github.com/github/gitignore
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+.settings/
