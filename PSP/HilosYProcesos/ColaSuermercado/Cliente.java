@@ -1,4 +1,4 @@
-package HilosYProcesos.ConsumidorProductor;
+package HilosYProcesos.ColaSuermercado;
 
 import java.util.Random;
 

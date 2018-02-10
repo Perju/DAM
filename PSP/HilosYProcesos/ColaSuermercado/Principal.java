@@ -1,4 +1,4 @@
-package HilosYProcesos.ConsumidorProductor;
+package HilosYProcesos.ColaSuermercado;
 
 public class Principal {
 

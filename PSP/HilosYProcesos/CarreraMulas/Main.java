@@ -1,4 +1,4 @@
-package HilosYProcesos.CarreraMarioKart;
+package HilosYProcesos.CarreraMulas;
 
 import java.util.Random;
 
