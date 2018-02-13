@@ -7,6 +7,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 import javax.swing.JFrame;
+import javax.swing.text.DefaultCaret;
 
 public class ServidorChat extends JFrame implements ActionListener{
 	private static final long serialVersionUID = 1L;
@@ -22,6 +23,7 @@ public class ServidorChat extends JFrame implements ActionListener{
 	private JScrollPane scrollpanel;
 	static JTextArea txtAreaChat;
 	JButton btnSalir = new JButton("Salir");
+	JButton btnLimpiarChat = new JButton("Limpiar");
 	static HashSet<Socket> tabla;//almacena sockets de clientes
 	
 	public ServidorChat() {
@@ -36,14 +38,21 @@ public class ServidorChat extends JFrame implements ActionListener{
 		txtAreaChat = new JTextArea();
 		scrollpanel = new JScrollPane(txtAreaChat);
 		scrollpanel.setBounds(10,50,400,300);
+		// El scrollpanel seguira a txtAreaChat para ver los mensajes nuevos
+		((DefaultCaret)txtAreaChat.getCaret()).setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		add(scrollpanel);
 		
 		btnSalir.setBounds(420, 10, 100, 30);
+		btnSalir.addActionListener(this);
 		add(btnSalir);
 		
 		txtAreaChat.setEditable(false);
-		btnSalir.addActionListener(this);
+		
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		
+		btnLimpiarChat.setBounds(420, 50, 100, 30);
+		btnLimpiarChat.addActionListener(this);
+		add(btnLimpiarChat);
 		
 		tabla = new HashSet<Socket>();
 	}
@@ -58,6 +67,9 @@ public class ServidorChat extends JFrame implements ActionListener{
 				e.printStackTrace();
 			}
 			System.exit(0);
+		}
+		if(event.getSource() == btnLimpiarChat) {
+			txtAreaChat.setText("");
 		}
 	}
 	

@@ -3,6 +3,7 @@ import java.awt.event.*;
 import java.io.*;
 import java.net.*;
 import javax.swing.*;
+import javax.swing.text.DefaultCaret;
 
 public class ClienteChat extends JFrame implements ActionListener, Runnable {
 	private static final long serialVersionUID = 1L;
@@ -21,13 +22,16 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
 	// constructor
 	public ClienteChat(Socket s, String nombre) {
 		super("MiCHAT Usuraio: " + nombre);
+		
 		setLayout(null);
-		mensaje.setBounds(10, 10, 400, 30);add(mensaje) ;
+		mensaje.setBounds(10, 10, 400, 30);			add(mensaje) ;
 		txtAreaChat = new JTextArea();
+		// El scrollpanel seguira a txtAreaChat para ver los mensajes nuevos
+		((DefaultCaret)txtAreaChat.getCaret()).setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		scrollpanel = new JScrollPane (txtAreaChat);
-		scrollpanel.setBounds(10, 50, 400, 300); add(scrollpanel);
-		btnEnviar.setBounds(420, 10, 100, 30);add( btnEnviar ) ;
-		btnSalir.setBounds(420, 50, 100, 30);add(btnSalir);
+		scrollpanel.setBounds(10, 50, 400, 300);	add(scrollpanel);
+		btnEnviar.setBounds(420, 10, 100, 30);		add(btnEnviar);
+		btnSalir.setBounds(420, 50, 100, 30);		add(btnSalir);
 		txtAreaChat.setEditable(false);
 		btnEnviar.addActionListener(this);
 		btnSalir.addActionListener(this);
@@ -93,11 +97,12 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
 
 	public static void main(String[] args) {
 		int puerto = 44444;
+		String host = "localhost";
 		String nombre = JOptionPane.showInputDialog(
 				"Introduce tu Nick");
 		Socket s = null;
 		try {
-			s = new Socket("192.168.1.200", puerto);
+			s = new Socket(host, puerto);
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(
 					null,"IMPOSIBLE CONECTAR CON EL SERVIDOR\n"+e.getMessage(),
