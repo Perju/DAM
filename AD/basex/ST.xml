@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<st>
+	<serie temporadas="3" episodios="80" duracion="50" añoI="1966" añoF="1969">
+		<titulo>Star Trek: La serie original</titulo>
+		<nave>USS Enterprise</nave>
+		<productora>Desilu Productions</productora>
+		<productora>Norway Corporation</productora>
+		<productora>Paramount Television</productora>
+		<sinopsis>La escena transcurre a mediados del siglo XXIII. La Tierra ha sobrevivido las Guerras Eugenésicas (III Guerra Mundial) de comienzos del siglo XXI. A mediados de ese siglo, al desarrollar tecnología warp ha hecho contacto con seres inteligentes provenientes de otros sistemas solares. Los primeros fueron los vulcanos. Humanos y vulcanos se unieron en la formación de la Federación Unida de Planetas, la unión de más de 100 mundos en la vecindad de la galaxia. Su órgano exploratorio-defensivo es la Flota Estelar, la que mantiene una gran cantidad de naves espaciales capaces de viajes interestelares a velocidades mayores a la de la luz.
+
+La mayoría de los problemas sociales, incluyendo pobreza, crimen y enfermedades, han sido superados. El dinero ha dejado de existir, y el gran propósito del hombre no son los bienes materiales sino la propia superación y la de sus semejantes.
+
+También muchos humanos han optado por formar pequeñas colonias en planetas lejanos, y continúan luchando para sobrevivir y prosperar.
+
+No todos los mundos de la Federación tienen sistemas políticos tan sólidos como la Tierra. Algunas veces también se desatan disturbios en ellos. Pero la amenaza más grande es la cantidad de razas agresivas que habitan la galaxia y que no son parte de la Federación. Algunos de ellos son el Imperio Klingon y el Imperio Romulano. Batallas entre las naves de la Flota y las naves klingon y romulanas a veces ocurren. Para evitar mayores conflictos, una Zona Neutral ha sido establecida entre el espacio de la Federación y el territorio de klingons y romulanos.</sinopsis>
+		<personaje capitulos="79" traje="Amarillo">
+			<actor>William Shatner</actor>
+			<nombre>James Tiberius Kirk</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="80" traje="Azul">
+			<actor>Leonard Nimoy</actor>
+			<nombre>Spock</nombre>
+			<raza>Vulcano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Oficial Científico</ocupacion>		
+		</personaje>
+		<personaje capitulos="76" traje="Azul">
+			<actor>DeForest Kelley</actor>
+			<nombre>Leonard Horatio McCoy</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="66" traje="Rojo">
+			<actor>James Doohan</actor>
+			<nombre>Montgomery Scott</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Jefe de Ingeniería</ocupacion>		
+		</personaje>
+		<personaje capitulos="70" traje="Rojo">
+			<actor>Nichelle Nichols</actor>
+			<nombre>Nyota Uhura</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Oficial de Comunicaciones</ocupacion>		
+		</personaje>
+		<personaje capitulos="52" traje="Amarillo">
+			<actor>George Takei</actor>
+			<nombre>Hikaru Sulu</nombre>
+			<raza>Humano</raza>
+			<rango>Oficial</rango>
+			<ocupacion>Piloto</ocupacion>		
+		</personaje>
+		<personaje capitulos="36" traje="Amarillo">
+			<actor>Walter Koenig</actor>
+			<nombre>Pavel Chekov</nombre>
+			<raza>Humano</raza>
+			<rango>	Alférez</rango>
+			<ocupacion>Oficial de Navegación</ocupacion>		
+		</personaje>
+		<personaje capitulos="36" traje="Azul">
+			<actor>Majel Barrett</actor>
+			<nombre>Christine Chapel</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Enfermera</ocupacion>		
+		</personaje>
+	</serie>
+	<serie temporadas="2" episodios="22" duracion="30" añoI="1973" añoF="1974">
+		<titulo>Star Trek: La serie animada</titulo>
+		<nave>USS Enterprise</nave>
+		<productora>Filmation Associates</productora>
+		<productora>Norway Corporation</productora>
+		<productora>Paramount Television</productora>
+		<sinopsis>Star Trek: La Serie animada es una versión en dibujos de Star Trek: The Original Series, pero fue cancelada cuando su segunda temporada había empezado </sinopsis>
+		<personaje capitulos="22" traje="Amarillo">
+			<actor>William Shatner</actor>
+			<nombre>James Tiberius Kirk</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="22" traje="Azul">
+			<actor>Leonard Nimoy</actor>
+			<nombre>Spock</nombre>
+			<raza>Vulcano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Oficial Científico</ocupacion>		
+		</personaje>
+		<personaje capitulos="22" traje="Azul">
+			<actor>DeForest Kelley</actor>
+			<nombre>Leonard Horatio McCoy</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="22" traje="Rojo">
+			<actor>James Doohan</actor>
+			<nombre>Montgomery Scott</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Jefe de Ingeniería</ocupacion>		
+		</personaje>
+		<personaje capitulos="22" traje="Rojo">
+			<actor>Nichelle Nichols</actor>
+			<nombre>Nyota Uhura</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Oficial de Comunicaciones</ocupacion>		
+		</personaje>
+		<personaje capitulos="22" traje="Amarillo">
+			<actor>George Takei</actor>
+			<nombre>Hikaru Sulu</nombre>
+			<raza>Humano</raza>
+			<rango></rango>
+			<ocupacion>Piloto</ocupacion>		
+		</personaje>
+		<personaje capitulos="21" traje="Azul">
+			<actor>Majel Barrett</actor>
+			<nombre>Christine Chapel</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Enfermera</ocupacion>		
+		</personaje>		
+	</serie>
+	<serie temporadas="7" episodios="176" duracion="44" añoI="1987" añoF="1994">
+		<titulo>Star Trek: La nueva generación</titulo>
+		<nave>USS Enterprise-D</nave>
+		<productora>Paramount Television</productora>
+		<sinopsis>Es el siglo XXIV, cerca de 80 años después de los tiempos del Capitán James T. Kirk. La quinta versión de la nave estelar Enterprise, la más grande y sofisticada de la Flota Estelar, está a punto de iniciar su misión exploratoria. Como está programado el viaje para aproximadamente 10 años, la nave no sólo lleva a los oficiales de la Flota, sino también a sus familias, para un total de más de 1.000 personas a bordo. Como es de esperar, el Enterprise ha tenido varios adelantos tecnológicos desde su mítico antecesor, el NCC-1701. Pero como aquel Enterprise, el nuevo es una nave de exploración, pero capaz de defenderse y de defender los intereses de la Federación Unida de Planetas cuando esta lo requiera.
+
+Durante los últimos 80 años, desde los comienzos de la original Enterprise, la Federación ha crecido significativamente, incluyendo ahora muchos nuevos planetas-miembro. El cambio político más importante es el tratado que firmó la Federación con el Imperio Klingon que llevó a la paz entre ambos mundos. Sin embargo, los klingon no son miembros de la Federación, pero son aliados importantes.
+
+Pero no todas son buenas noticias. Siguen existiendo otras culturas amenazadoras de la seguridad en el cuadrante, como Romulanos, Cardassianos y Ferengis. Y pronto aparecerá un peligro mucho mayor y más poderoso que el resto: los Borg, una raza mitad humanoide-mitad máquina, con el único objetivo de asimilar cualquier civilización que encuentren en su camino. Y la Federación parece estar en su camino...</sinopsis>		
+		<personaje capitulos="176" traje="Rojo">
+			<actor>Patrick Stewart</actor>
+			<nombre>Jean-Luc Picar</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="176" traje="Rojo">
+			<actor>Jonathan Frakes</actor>
+			<nombre>William Thomas Riker</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Primer Oficial</ocupacion>		
+		</personaje>
+		<personaje capitulos="176" traje="Amarillo">
+			<actor>Brent Spiner</actor>
+			<nombre>Data</nombre>
+			<raza>Androide</raza>
+			<rango>Teniente Comandante</rango>
+			<ocupacion>Oficial Científico</ocupacion>		
+		</personaje>
+		<personaje capitulos="155" traje="Azul">
+			<actor>Gates McFadden</actor>
+			<nombre>Beverly Crusher</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente Comandante</rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="176">
+			<actor>Marina Sirtis</actor>
+			<nombre>Deanna Troi</nombre>
+			<raza>Betazed</raza>
+			<rango>Teniente Comandante</rango>
+			<ocupacion>Consejera</ocupacion>		
+		</personaje>
+		<personaje capitulos="176" traje="Amarillo">
+			<actor>	LeVar Burton</actor>
+			<nombre>Geordi La Forge</nombre>
+			<raza>Humano</raza>
+			<rango>	Teniente Comandante</rango>
+			<ocupacion>Jefe de Ingeniería</ocupacion>		
+		</personaje>
+		<personaje capitulos="176" traje="Amarillo">
+			<actor>Michael Dorn</actor>
+			<nombre>Worf</nombre>
+			<raza>Klingon</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Seguridad</ocupacion>		
+		</personaje>
+		<personaje capitulos="52" traje="Amarillo">
+			<actor>Colm Meaney</actor>
+			<nombre>Miles O'Brien</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Transporte</ocupacion>		
+		</personaje>
+		<personaje capitulos="87" traje="Rojo">
+			<actor>	Wil Wheaton</actor>
+			<nombre>Wesley Crusher</nombre>
+			<raza>Humano</raza>
+			<rango>	Alférez</rango>
+			<ocupacion></ocupacion>		
+		</personaje>		
+	</serie>
+	<serie temporadas="7" episodios="176" duracion="46" añoI="1993" añoF="1999">
+		<titulo>Star Trek: Espacio Profundo 9</titulo>
+		<nave>Espacio Profundo Nueve</nave>
+		<productora>Paramount Television</productora>
+		<sinopsis>Tras 50 años de ocupación Cardassiana, el planeta Bajor es otra vez libre. Pero los cardassianos dejaron una devastación social, cultural, ambiental y sobre todo económica, por eso los bajorianos deben pedir la asistencia de la Federación para poder reconstruirse.
+
+Los cardassianos, tras la derrota, dejaron una estación espacial que usaban para explotar los recursos minerales del planeta. Por pedido del Gobierno Provisional Bajoriano, la Flota Estelar tomó el control de la administración de la estación, a la que llamaron Deep Space 9 (el nombre cardassiano era Terok Nor).
+
+Sin embargo, cuando los oficiales de la Flota llegaron a DS9, encontraron que los cardassianos habían vaciado el lugar antes de irse. La mayoría de los sistemas debieron ser reparados o directamente cambiados. Además, no todos los sectores políticos de Bajor aceptan la presencia de la Flota, lo que causa un clima político enrarecido.
+
+La estación cuenta con un Centro de Operaciones, un área comercial conocido como Promenade, puertos espaciales y bahías de servicio para recibir naves espaciales de todos los tamaños. Además posee un anillo habitacional.
+
+En un primer momento, la estación parece ser un pueblo fantasma en el borde del espacio conocido, pero el descubrimiento de un agujero de gusano estable cercano transformará a DS9 en un punto importante para la comunicación con el Cuadrante Gamma. Por supuesto, el agujero de gusano traerá consigo nuevas amenazas y peligros para los habitantes del Cuadrante Alfa.</sinopsis>
+		<personaje capitulos="173" traje="Rojo">
+			<actor>Avery Brooks</actor>
+			<nombre>Benjamin Lafayette Sisko</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="173" traje="Rojo">
+			<actor>Nana Visitor</actor>
+			<nombre>Kira Nerys</nombre>
+			<raza>Bajor</raza>
+			<rango>Mayor</rango>
+			<ocupacion>Primer Oficial</ocupacion>		
+		</personaje>
+		<personaje capitulos="102" traje="Rojo">
+			<actor>Michael Dorn</actor>
+			<nombre>Worf</nombre>
+			<raza>Klingon</raza>
+			<rango>Teniente Comandante</rango>
+			<ocupacion>Jefe de Seguridad</ocupacion>		
+		</personaje>
+		<personaje capitulos="173" traje="Amarillo">
+			<actor>Colm Meaney</actor>
+			<nombre>Miles O'Brien</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Operaciones</ocupacion>		
+		</personaje>
+		<personaje capitulos="47">
+			<actor>Aron Eisenberg</actor>
+			<nombre>Nog</nombre>
+			<raza>Ferengi</raza>
+			<rango>Teniente</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="150" traje="Azul">
+			<actor>Terry Farrell</actor>
+			<nombre>Jadzia Dax</nombre>
+			<raza>Trill</raza>
+			<rango>Teniente Comandante</rango>
+			<ocupacion>Oficial Científico</ocupacion>		
+		</personaje>
+		<personaje capitulos="173" traje="Azul">
+			<actor>Alexander Siddig</actor>
+			<nombre>Julian Subatoi Bashir</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="173" traje="Amarillo">
+			<actor>Rene Auberjonois</actor>
+			<nombre>Odo</nombre>
+			<raza>Mutante</raza>
+			<rango></rango>
+			<ocupacion>Jefe de Seguridad</ocupacion>		
+		</personaje>
+	</serie>	
+	<serie temporadas="7" episodios="170" duracion="44" añoI="1995" añoF="2001">
+		<titulo>Star Trek: Voyager</titulo>
+		<nave>USS Voyager</nave>
+		<productora>Paramount Television</productora>
+		<productora>United Paramount Network</productora>
+		<sinopsis>El USS Voyager es la nave más nueva de la Flota Estelar. Mucho más pequeña que sus contemporáneos, como el USS Enterprise, transporta una tripulación cercana a los 300. Fue creada con el propósito de mejorar la velocidad y maniobrabilidad promedio de las naves de la Flota. Y posee la última tecnología disponible de la Federación.
+
+Mientras perseguía una nave Maquis dentro de las Tierras Baldías, un área cercana al espacio Cardassiano que está plagada de tormentas energéticas, ambas naves fueron transportadas a 70 mil años luz, dentro de lo que se conoce como el cuadrante Delta de la galaxia. Tras el encuentro con los Kazon, una agresiva raza de ese cuadrante, la nave Maquis fue destruida y los tripulantes sobrevivientes fueron recibidos en el Voyager. Como les tomará cerca de 70 años a warp máximo volver al cuadrante Alfa, deberán sobrepasar la pena de no poder ver ni contactar a los seres queridos que ambas tripulaciones dejaron atrás.
+
+La Capitán Kathryn Janeway, ahora a cargo de ambas tripulaciones, se ha impuesto el objetivo de explorar el cuadrante Delta con la esperanza de encontrar alguna anomalía espacial o alguna tecnología suficientemente avanzada, que los ayude a volver más rápidamente a casa.</sinopsis>
+		<personaje capitulos="170" traje="Rojo">
+			<actor>Kate Mulgrew</actor>
+			<nombre>Kathryn Janeway</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Rojo">
+			<actor>Robert Beltran</actor>
+			<nombre>Chakotay</nombre>
+			<raza>Humano</raza>
+			<rango>Comandante</rango>
+			<ocupacion>Primer Oficial</ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Amarillo">
+			<actor>Tim Russ</actor>
+			<nombre>Tuvok</nombre>
+			<raza>Vulcano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Seguridad</ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Amarillo">
+			<actor>Roxann Dawson</actor>
+			<nombre>B'Elanna Torres</nombre>
+			<raza>Klingon</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Ingeniería</ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Rojo">
+			<actor>Robert Duncan McNeill</actor>
+			<nombre>Thomas Eugene Paris</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Piloto</ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Amarillo">
+			<actor>Garrett Wang</actor>
+			<nombre>Harry Kim</nombre>
+			<raza>Humano</raza>
+			<rango>Alférez</rango>
+			<ocupacion>Jefe de Operaciones</ocupacion>		
+		</personaje>
+		<personaje capitulos="170" traje="Azul">
+			<actor>Robert Picardo</actor>
+			<nombre>Holograma médico de emergencia Mark I</nombre>
+			<raza>Holograma</raza>
+			<rango></rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="170">
+			<actor>Ethan Phillips</actor>
+			<nombre>Neelix</nombre>
+			<raza>Talaxiano</raza>
+			<rango>Oficial de Moral</rango>
+			<ocupacion>Cocinero</ocupacion>		
+		</personaje>		
+	</serie>
+	<serie temporadas="4" episodios="60" duracion="44" añoI="2001" añoF="2005">
+		<titulo>Star Trek: Enterprise</titulo>
+		<nave>Enterprise (NX-01)</nave>
+		<productora>Braga Productions</productora>
+		<productora>Paramount Network Television</productora>
+		<productora>Paramount Television</productora>
+		<productora>Rick Berman Productions</productora>
+		<sinopsis>La historia transcurre a mediados del siglo 22, cerca de 90 años después del primer vuelo warp terrestre y unos 100 años antes de la época de James T. Kirk.
+
+La Federación todavía no existe como tal y apenas comienzan los primeros contactos --no todos diplomáticos-- con las razas extrañas del sector cercano. Son los días de los pioneros de la exploración espacial profunda. Es una época de constantes descubrimientos para los exploradores de la Tierra.
+
+Descubrimientos que se incrementarán notablemente con la salida de los astilleros de un prototipo de nave con capacidad de warp 5, increíblemente más veloz que sus antecesoras, y que tomó cerca de 40 años desarrollar.
+
+La nave es el NX-01 y fue bautizada como Enterprise. Su tripulación tendrá más que nunca la misión de explorar nuevos mundos y descubrir nuevas formas de vida y nuevas civilizaciones, en definitiva, viajar temerariamente donde nadie ha llegado antes.
+
+A su paso encontrará nuevos amigos, pero también encontrará muchos peligrosos adversarios, representados por klingons, andorianos --tienen una larga disputa con los vulcanos--, romulanos y los Sulliban, una raza que usa manipulación genética, que estará asociada a un extraño y misterioso villano proveniente del futuro.</sinopsis>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Scott Bakula</actor>
+			<nombre>Jonathan Archer</nombre>
+			<raza>Humano</raza>
+			<rango>Capitán</rango>
+			<ocupacion></ocupacion>		
+		</personaje>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Jolene Blalock</actor>
+			<nombre>T'Pol</nombre>
+			<raza>Vulcano</raza>
+			<rango>Subcomandante</rango>
+			<ocupacion>Oficial Científico</ocupacion>		
+		</personaje>
+		<personaje capitulos="98">
+			<actor>John Billingsley</actor>
+			<nombre>Phlox</nombre>
+			<raza>Denobulano</raza>
+			<rango></rango>
+			<ocupacion>Jefe Médico</ocupacion>		
+		</personaje>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Linda Park</actor>
+			<nombre>Hoshi Sato</nombre>
+			<raza>Humano</raza>
+			<rango>Alférez</rango>
+			<ocupacion>Oficial de Comunicaciones</ocupacion>		
+		</personaje>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Anthony Montgomery</actor>
+			<nombre>Travis Mayweather</nombre>
+			<raza>Humano</raza>
+			<rango>Alférez</rango>
+			<ocupacion>Piloto</ocupacion>		
+		</personaje>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Dominic Keating</actor>
+			<nombre>Malcolm Reed</nombre>
+			<raza>Humano</raza>
+			<rango>Teniente</rango>
+			<ocupacion>Jefe de Seguridad</ocupacion>		
+		</personaje>
+		<personaje capitulos="98" traje="Morado">
+			<actor>Connor Trinneer</actor>
+			<nombre>Charles Tucker III</nombre>
+			<raza>Humano</raza>
+			<rango>Comandante</rango>
+			<ocupacion>Jefe de Ingeniería</ocupacion>		
+		</personaje>
+	</serie>
+</st>
