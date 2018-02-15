@@ -4,5 +4,6 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+resources/
 
 .settings/
