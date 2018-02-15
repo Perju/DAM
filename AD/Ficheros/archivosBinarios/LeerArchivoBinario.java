@@ -29,10 +29,8 @@ public class LeerArchivoBinario {
 			// cerramos el stream de datos
 			dis.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("se acabo");
