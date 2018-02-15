@@ -1,4 +1,5 @@
 package Sockets.Chat_Cliente;
+
 import java.awt.event.*;
 import java.io.*;
 import java.net.*;
@@ -6,6 +7,7 @@ import javax.swing.*;
 import javax.swing.text.DefaultCaret;
 
 public class ClienteChat extends JFrame implements ActionListener, Runnable {
+	
 	private static final long serialVersionUID = 1L;
 	Socket socket = null;
 	// steams
@@ -97,7 +99,8 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
 
 	public static void main(String[] args) {
 		int puerto = 44444;
-		String host = "localhost";
+		String host = JOptionPane.showInputDialog(
+				"Introduce el servidor");
 		String nombre = JOptionPane.showInputDialog(
 				"Introduce tu Nick");
 		Socket s = null;
@@ -118,4 +121,5 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
 			System.out.println("El nombre esta vacio....");
 		}
 	}//main
+
 }

@@ -96,6 +96,7 @@ public class ServidorChat extends JFrame implements ActionListener{
 				HiloServidor hilo = new HiloServidor(s);
 				hilo.start();// lanzar hilo
 			}
+			
 		}//fin while
 		if(!socketServidor.isClosed()) {
 			try {
