@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XQuery"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/BaseX"/>
 	<classpathentry kind="src" path="clasesEstaticas"/>
 	<classpathentry kind="src" path="AD"/>
 	<classpathentry kind="src" path="Juegos"/>
