@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="Otros"/>
 	<classpathentry excluding="banco/" kind="src" path="PSP"/>
 	<classpathentry kind="src" path="Introduccion"/>
+	<classpathentry kind="src" path="DI"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
