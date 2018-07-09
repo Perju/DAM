@@ -132,4 +132,33 @@ public class Leer {
 		}while(!salir);
 		return caracter;
 	}
+	//Pedir un booleano
+	public static boolean pedirBoolean(String texto) {
+    		char caracter = '\n';
+        	String cadena;
+        	boolean salir;
+        	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        	do {
+            		texto = (texto.length() <= 0) ? texto : texto + "\n";
+            		System.out.print(texto);
+            		try {
+                		cadena = br.readLine();
+                		if (cadena.length() == 1) {
+                    			caracter = cadena.charAt(0);
+                    			salir = true;
+                		} else {
+					salir = false;
+                    			System.out.println("S/N solo una letra");
+                		}
+            		} catch (Exception e) {
+                		e.printStackTrace();
+                		salir = false;
+        	    	}
+        	} while (!salir);
+        	if(caracter=='s'){
+            		return true;
+        	}else {
+            		return false;
+        	}
+    	}
 }
